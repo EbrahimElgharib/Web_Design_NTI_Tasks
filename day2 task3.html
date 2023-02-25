@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day2 Task2</title>
+</head>
+<body>
+    <h1>I'm Ebrahim Elsayed Elgharib</h1>
+    <hr>
+    <h2>Picture task</h2>
+
+    <picture>
+        <!-- True -->
+        <source srcset="https://www.w3schools.com/images/w3schools_green.jpg">
+        <!-- No image -->
+        <source srcset="f">
+        <!-- wrong -->
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="img tag">
+    </picture>
+    <hr>
+
+    <picture>
+        <!-- Wrong No extension -->
+        <source srcset="http//www.w3schools.com/images/w3schools_green">
+        <source srcset="https://www.w3schools.com/images/w3schools_green.png">
+        <!-- True but not executed -->
+        <img src="https://www.w3sch.asds" alt="img tag">
+    </picture>
+    <hr>
+
+    <picture>
+        <!-- Wrong -->
+        <source srcset="htps://.com/images">
+        <source srcset="https://www.w3schools.com/images/w3schools_green.mp99">
+        <!-- True -->
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="img tag">  
+    </picture> 
+
+    <hr><hr><hr><hr>
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="images/2.jpg">
+        <source media="(min-width: 465px)" srcset="images/333.jpg">
+        <img src="images/4.jpg">
+      </picture>
+
+    <hr><hr><hr><hr>
+
+    <h2>p & pre</h2>
+    <p>That is a Paragraph,
+        My name is Ebrahim Elsayed
+    </p>
+    <pre>That is Pre,
+        My name is Ebrahim Elsayed
+    </pre>
+
+    <hr><hr><hr><hr>
+
+    <h2><strong>Red Color</strong>  with 4 ways</h2>
+    <p style="color: red;">with name of color: red</p>
+    <p style="color: rgb(255,0,0);">with rgb(255,0,0)</p>
+    <p style="color: #f00;">with hexa #f00 or #ff0000</p>
+    <p style="color: hsl(0, 100%, 50%);">with hsl(0, 100%, 50%)</p>
+
+    <hr><hr><hr><hr>
+
+    
+    <picture>
+        <source media="(min-width: 650px)" srcset="images/2.jpg">
+        <source media="(min-width: 465px)" srcset="images/333.jpg">
+        <img src="images/4.jpg">
+      </picture>
+
+
+</body>
+</html> 

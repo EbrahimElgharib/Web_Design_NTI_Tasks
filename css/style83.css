@@ -1,0 +1,65 @@
+body{
+    background-color: gray;
+    padding: 20px;
+    color: aliceblue;
+}
+
+
+.container{
+    width: 35%;
+    margin: auto;
+    background-color: rgb(61, 57, 57);
+    padding: 20px;
+}
+
+h1{
+
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    border: 2px solid rgb(202, 188, 188);
+    background-color: antiquewhite;
+    width: 97%;
+    margin-bottom: 10px;
+}
+
+
+#fname, #lname{
+    width: 45%;
+}
+
+#terms{
+    width: fit-content;
+    
+}
+
+.check_terms{
+    text-align: center;
+}
+
+.check_terms label, .login_rights{
+    font-size: 12px;
+}
+
+#submit{
+    color: #321911;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffc107;
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 5px 0;
+}
+
+
+.login_rights{
+    text-align: center;
+}
+
+.login_rights p > a{
+    color: aliceblue;
+}
+

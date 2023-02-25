@@ -1,0 +1,97 @@
+/* Flex-container Calculator CSS */
+.flex-container {
+    background-color: hsl(0, 0%, 80%);
+
+
+    display: flex;
+}
+
+.left,
+.right {
+    padding: 10px;
+}
+
+/* left part */
+
+.left {
+    flex-grow: 2;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.settings,
+.text,
+.calc-btn,
+.info-btn {
+    display: flex;
+}
+
+.settings span {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.settings span:nth-child(2n+1):hover {
+    background-color: grey;
+}
+
+.text {
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+}
+
+.text span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.calc-btn {
+    flex-wrap: wrap;
+}
+
+.calc-btn div {
+    flex: 1 0 21%;
+    /* 4 boxes in row */
+    margin: 0 5px 5px 0;
+    height: 50px;
+    background-color: white;
+
+    /* Center content of text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calc-btn div:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+/* end of left part  */
+
+
+
+/* Right part */
+
+.right {
+    flex-grow: 1;
+}
+
+.info-btn span {
+    font-weight: bold;
+    padding: 15px 0;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.info-btn span:first-child {
+    border-bottom: 3px solid red;
+}
+
+.right p {
+    margin-top: 35px;
+}
+
+/* end of right part  */

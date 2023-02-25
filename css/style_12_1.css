@@ -1,0 +1,63 @@
+body{
+    padding: 10px;  
+}
+
+/* common in divs */
+div{
+    margin-bottom: 10px;
+    background-color: #9E9E9E;
+    text-align: center;
+}
+
+.header, .footer{
+    padding: 20px 0;
+}
+
+.navigation_menu{
+    padding: 10px 0;
+}
+
+.content, .main_content{
+    display: inline-block;
+    padding: 100px 0;
+}
+
+.content{
+    width: 20%;
+}
+.main_content{
+    width: calc(60% - 28px);
+    margin: 0 10px;
+}
+
+
+/* Float */
+.float_div{
+    float:left;
+}
+
+.div1, .div2, .div6{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.div3, .div5{
+    width: 20%;
+}
+
+.div4{
+    margin: 0 10px;
+    width: calc(60% - 20px);
+}
+
+.div3, .div5, .div4{
+    padding: 90px 0;
+}
+
+.div5::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+

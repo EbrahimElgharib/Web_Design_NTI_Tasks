@@ -1,0 +1,123 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+
+body {
+    padding: 20px 5%;
+    color: white;
+}
+
+.container_table {
+    /* border: 2px solid rgb(255, 0, 0); */
+    background-color: rgb(1, 8, 2);
+    padding: 30px;
+}
+
+.container_table h1 {
+    text-align: center;
+}
+
+.row span {
+    display: inline-block;
+    width: 23%;
+
+    border: 1px solid grey;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    /* font-size: 20px; */
+    /*trick1 solve margin between span */
+    margin-right: -5px;
+    /*trick2 solve margin between span */
+
+    vertical-align: top;
+}
+
+.row span:first-child {
+    width: 31%;
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+.row_header span {
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.row_header span:nth-child(1) {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.row_header span:nth-child(2) {
+    background-color: orange;
+    border: none;
+}
+
+.row_header span:nth-child(3) {
+    background-color: red;
+    border: none;
+}
+
+.row_header span:nth-child(4) {
+    background-color: blueviolet;
+    border: none;
+}
+
+.row1 span {
+    height: 56.5px;
+}
+
+.row1 span:nth-child(2) {
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.row1 span:nth-child(3) {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.row1 span:nth-child(4) {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.row4 span:nth-child(n+3),
+.row5 span:nth-child(n+3) {
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.row7 span button {
+    background-color: orangered;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 20px
+}
+
+.row5 span,
+.row4 span {
+    height: 56.5px;
+}
+
+.row6 span {
+    height: 70px;
+}
+
+.row7 span {
+    height: 59px;
+}

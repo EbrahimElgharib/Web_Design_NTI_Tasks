@@ -1,0 +1,89 @@
+body{
+    padding-top: 80px;
+}
+
+
+/* container */
+.container{
+    max-width: 650px;
+    min-width: 400px;
+    background-color:blueviolet;
+    padding: 20px;
+    margin: auto;
+}
+
+.links span{
+
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    margin: 5px 0px;
+    /* width: calc(50% - 2px); */
+            /* Firefox */
+            width: -moz-calc(50% - 2px);
+            /* WebKit */
+            width: -webkit-calc(50% - 2px);
+            /* Opera */
+            width: -o-calc(50% - 2px);
+            /* Standard */
+            width: calc(50% - 2px);
+
+}
+
+.links span#signup{
+    background-color: rgb(66, 190, 66);
+}
+.links span#login{
+    background-color: grey;
+}
+
+
+.links span a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+#fname, #lname{
+    /* width: 46%; */
+    /* Firefox */
+    width: -moz-calc((100% - 40px) / 2);
+    /* WebKit */
+    width: -webkit-calc((100% - 40px) / 2);
+    /* Opera */
+    width: -o-calc((100% - 40px) / 2);
+    /* Standard */
+    width: calc((100% - 52px) / 2);
+    }
+
+
+#email, #pass, .submit{
+    /* width: 100%;         */
+        /* Firefox */
+        width: -moz-calc(100% - 22px);
+        /* WebKit */
+        width: -webkit-calc(100% - 22px);
+        /* Opera */
+        width: -o-calc(100% - 22px);
+        /* Standard */
+        width: calc(100% - 22px);
+}
+
+input{
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.submit{
+    background-color: rgb(66, 190, 66);
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 17px;
+    width: 100%;
+}
+

@@ -1,0 +1,65 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Parent */
+/* flex container  */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    height: 500px;
+}
+
+/* childs */
+.flex-container>div {
+    margin-bottom: 10px;
+}
+
+.header,
+.footer,
+.content-flex div,
+.navigation-view {
+    background-color: navajowhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    flex-grow: 2;
+}
+
+.navigation-view {
+    flex-grow: 1;
+}
+
+.content-flex {
+    flex-grow: 4;
+}
+
+.footer {
+    flex-grow: 1;
+}
+
+
+/* content-flex parent */
+.content-flex {
+    background-color: white;
+    display: flex;
+
+}
+
+/* content childs */
+.content {
+    flex-grow: 1;
+}
+
+.main-content {
+    flex-grow: 3;
+    margin: 0 10px;
+}

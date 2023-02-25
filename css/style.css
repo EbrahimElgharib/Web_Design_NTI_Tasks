@@ -1,0 +1,36 @@
+body{
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid;
+}
+
+h1{
+    color: brown;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+h2{
+    color: blue;
+    border-left: 5px solid brown;
+    border-right: 5px solid brown;
+    margin: auto;
+    width: fit-content;
+    margin-top: 20px;
+
+}
+p a {
+    text-decoration: none;
+}
+
+.info{
+    text-align: center;
+}
+
+
+.info .personal_img {
+    width: 10%;
+    /* border: 5px solid red; */
+   
+    border-radius: 50%;
+}
